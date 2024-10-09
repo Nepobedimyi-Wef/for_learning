@@ -1,3 +1,6 @@
+def force_number(num, force):
+    print(f"Force of number: {num ** force}")
+
 def summ(num_1, num_2):
     print(f"Summ of number: {num_1 + num_2}")
 
@@ -15,6 +18,7 @@ def division(num_1, num_2):
 num_1 = int(input("Enter a number 1: "))
 num_2 = int(input("Enter a number 2: "))
 
+force_number(num_1,num_2)
 summ(num_1,num_2)
 subtraction(num_1,num_2)
 multiplication(num_1,num_2)
