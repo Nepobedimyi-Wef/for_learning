@@ -8,7 +8,6 @@
 
 
 
-
 # def force_num(num, force):
 #     print(num ** force)
 
