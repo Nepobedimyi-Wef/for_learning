@@ -15,8 +15,10 @@ def division(num_1, num_2):
     except ZeroDivisionError:
         print("You can't divide by zero")
 
+
 num_1 = int(input("Enter a number 1: "))
 num_2 = int(input("Enter a number 2: "))
+
 
 force_number(num_1, num_2)
 summ(num_1, num_2)
